@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plugin>
+    <id>com.fr.solution.plugin.db.query</id>
+    <name><![CDATA[KV-DataSet]]></name>
+    <active>yes</active>
+    <version>1.0</version>
+    <env-version>8.0</env-version>
+    <jartime>2015-12-20</jartime>
+    <vendor>Felix</vendor>
+    <description><![CDATA[KV-DataSource 100块都不给我]]></description>
+    <price>100</price>
+    <change-notes><![CDATA[[2016-10-08]<a onclick="console.log('100k')">初始化插件</a></p>
+    ]]></change-notes>
+    <extra-core>
+        <LocaleFinder class="com.fr.felix.plugin.db.query.QueryLocaleFinder"/>
+    </extra-core>
+    <extra-report>
+
+    </extra-report>
+    <extra-designer>
+        <TableDataDefineProvider class="com.fr.felix.plugin.db.query.QueryTableDataDefine"/>
+        <ServerTableDataDefineProvider class="com.fr.felix.plugin.db.query.QueryTableDataDefine"/>
+    </extra-designer>
+</plugin>
